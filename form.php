@@ -1,6 +1,3 @@
-
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,7 +7,7 @@
     <title>Home page</title>
 
 
-<style>
+	<style>
       table {
         border-collapse: separate;
         border-spacing: 0 15px;
@@ -88,26 +85,10 @@ echo "<table>
 
 ?>
 </div>
-
 </div> 
- <!-- 
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $("#myform").submit(function(event){
-    var postdata = $("#myform").serialize();
-  })
-});
-</script>
- -->
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
-
-
 <script>
   $(document).ready(function () {
     $('.btn-primary').click(function (e) {
@@ -126,7 +107,7 @@ $(document).ready(function(){
           }
         });
     });
-  });
+
 </script>
 
 
